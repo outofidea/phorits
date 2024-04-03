@@ -1,0 +1,47 @@
+/* #game{
+    display:flex;
+} */
+body{
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    background-color: #1E2761;
+}
+#boardHandle{
+    /* width: fit-content; */
+    /*stupid idea when using grid*/
+    background-color: #1E2761;
+    display: grid;
+    /*Programming crime lmao*/
+    /*I should have used table*/
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+#boardHandle>div{
+    color: aliceblue;
+    border:2px solid  #408EC6;
+    text-align: center;
+    /* width: 20px; */
+    padding: 2vh;
+    margin: 0;
+}
+#info{
+    display:flex;
+    justify-content:space-between;
+}
+#info .player{
+    /* padding: 5vmax; */
+    text-align: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#player1{
+    
+    margin-left: 15vmax;
+    color:aliceblue;
+}
+#player2{
+    
+    margin-right: 15vmax;
+    color:aliceblue;
+}
