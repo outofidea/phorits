@@ -14,7 +14,7 @@ body{
     display: grid;
     /*Programming crime lmao*/
     /*I should have used table*/
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(36,auto);
 }
 #boardHandle>div{
     color: aliceblue;
@@ -23,6 +23,8 @@ body{
     /* width: 20px; */
     padding: 2vh;
     margin: 0;
+    width: 0.2em;
+    height: 0.5em;
 }
 #info{
     display:flex;
